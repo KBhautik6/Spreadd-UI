@@ -1,4 +1,16 @@
+import { createGlobalStyle }  from 'styled-components';
+import ProximaNova from '../../font/proximanova_regular.ttf';
 import styled from "styled-components";
+export const GlobalStyles = createGlobalStyle`
+  @font-face {
+    font-family: 'ProximaNova';
+    src: url(${ProximaNova}) format('truetype'); /* specify the format of the font file */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Other global styles go here */
+`;
 
 export const StyledSection = styled.section`
   /* background: rgb(255, 246, 246);
@@ -10,7 +22,7 @@ export const StyledSection = styled.section`
   margin: auto;
   top: 0px;
   right: 0px;
-  background: rgb(255, 246, 246);
+  background: #fff6f6;
   position: relative;
   padding: 100px 0px;
   z-index: -1;
@@ -107,30 +119,10 @@ export const StyledHeading = styled.h3`
   font-weight: 400;
 `;
 
-export const StyledHeadingCommon = styled.div`
-  opacity: 1;
-  transform: none;
-  font-family: ProximaNova, "sans-serif";
-`;
-
-export const StyledHeadingSpan = styled.span`
-  /* border:1px solid black; */
-  border: none;
-  /* height:110px; */
-`;
 export const StyledParagraph = styled.p`
   font-size: 14px;
   line-height: 23px;
   max-width: 372px;
-`;
-
-export const StyledParaCommon = styled.div`
-  opacity: 1;
-  transform: none;
-`;
-
-export const StyledParaSpan = styled.span`
-  font-family: ProximaNova, "sans-serif";
 `;
 
 export const StyledCreatorCard = styled.div`

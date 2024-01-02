@@ -15,11 +15,7 @@ import {
   StyledLeftDetail,
   StyledAcademy,
   StyledHeading,
-  StyledHeadingCommon,
-  StyledHeadingSpan,
   StyledParagraph,
-  StyledParaCommon,
-  StyledParaSpan,
 } from "../SpreaddAcademy/SpreaddAcademy.styled";
 
 export const SpreaddAcademy = () => {
@@ -55,44 +51,44 @@ export const SpreaddAcademy = () => {
               <StyledLeftDetail>
                 <StyledAcademy>Spreadd Academy</StyledAcademy>
                 <StyledHeading>
-                  <StyledHeadingCommon>
-                    <StyledHeadingSpan>Create courses and</StyledHeadingSpan>
-                  </StyledHeadingCommon>
+                  <div>
+                    <span>Create courses and</span>
+                  </div>
 
-                  <StyledHeadingCommon>
-                    <StyledHeadingSpan>curriculums for your</StyledHeadingSpan>
-                  </StyledHeadingCommon>
+                  <div>
+                    <span>curriculums for your</span>
+                  </div>
 
-                  <StyledHeadingCommon>
-                    <StyledHeadingSpan>
+                  <div>
+                    <span>
                       collaborators/followers
-                    </StyledHeadingSpan>
-                  </StyledHeadingCommon>
+                    </span>
+                  </div>
                 </StyledHeading>
 
                 {/* New styling component started */}
 
                 <StyledParagraph>
-                  <StyledParaCommon>
-                    <StyledParaSpan>
+                  <div>
+                    <span>
                       We have got a host of features that can enable you to
                       skyrocket your
-                    </StyledParaSpan>
-                  </StyledParaCommon>
+                    </span>
+                  </div>
 
-                  <StyledParaCommon>
-                    <StyledParaSpan>
+                  <div>
+                    <span>
                       workshop and course sales. Empower your collaborators by
                       delivering
-                    </StyledParaSpan>
-                  </StyledParaCommon>
+                    </span>
+                  </div>
 
-                  <StyledParaCommon>
-                    <StyledParaSpan>
+                  <div>
+                    <span>
                       deeply engaging experience wherever they are, anytime,
                       anywhere.
-                    </StyledParaSpan>
-                  </StyledParaCommon>
+                    </span>
+                  </div>
                 </StyledParagraph>
               </StyledLeftDetail>
             </StyledLeftWrapper>

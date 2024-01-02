@@ -15,11 +15,7 @@ import {
   StyledCreatorStore,
   StyledRightInner,
   StyledHeading,
-  StyledHeadingCommon,
-  StyledHeadingSpan,
   StyledParagraph,
-  StyledParaCommon,
-  StyledParaSpan,
   StyledCreatorCard,
 } from "../CreatorStore/CreatorStore.styled";
 
@@ -34,6 +30,7 @@ export const CreatorStore = () => {
             <img src={image} alt="rightdot" />
           </StyledSvgContainer>
           <StyledWrapper>
+            {/* Left section is going to start */}
             <StyledLeft>
               <StyledCardContainer>
                 <StyledCardHeading>100+</StyledCardHeading>
@@ -48,46 +45,47 @@ export const CreatorStore = () => {
               </StyledImageContainer>
             </StyledLeft>
 
+            {/* Right section is going to start */}
             <StyledRight>
               <StyledRightInner>
                 <StyledCreatorStore>Creator Store</StyledCreatorStore>
 
                 <StyledHeading>
-                  <StyledHeadingCommon>
-                    <StyledHeadingSpan>Curate your</StyledHeadingSpan>
-                  </StyledHeadingCommon>
+                  <div>
+                    <span>Curate your</span>
+                  </div>
 
-                  <StyledHeadingCommon>
-                    <StyledHeadingSpan>products and turn</StyledHeadingSpan>
-                  </StyledHeadingCommon>
+                  <div>
+                    <span>products and turn</span>
+                  </div>
 
-                  <StyledHeadingCommon>
-                    <StyledHeadingSpan>your content shop-</StyledHeadingSpan>
-                  </StyledHeadingCommon>
+                  <div>
+                    <span>your content shop-</span>
+                  </div>
 
-                  <StyledHeadingCommon>
-                    <StyledHeadingSpan>able</StyledHeadingSpan>
-                  </StyledHeadingCommon>
+                  <div>
+                    <span>able</span>
+                  </div>
                 </StyledHeading>
 
                 <StyledParagraph>
-                  <StyledParaCommon>
-                    <StyledParaSpan>
+                  <div>
+                    <span>
                       Apply to create your own store. You can choose brands
-                    </StyledParaSpan>
-                  </StyledParaCommon>
+                    </span>
+                  </div>
 
-                  <StyledParaCommon>
-                    <StyledParaSpan>
+                  <div>
+                    <span>
                       and display their product within your own store. You can
-                    </StyledParaSpan>
-                  </StyledParaCommon>
+                    </span>
+                  </div>
 
-                  <StyledParaCommon>
-                    <StyledParaSpan>
+                  <div>
+                    <span>
                       get paid on every sale brand makes through you.
-                    </StyledParaSpan>
-                  </StyledParaCommon>
+                    </span>
+                  </div>
                 </StyledParagraph>
               </StyledRightInner>
             </StyledRight>
