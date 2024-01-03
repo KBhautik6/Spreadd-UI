@@ -4,7 +4,7 @@ import {
   StyledInnerWrapper,
   StyledImageWrapper,
   StyledLeftWrapper,
-  StyledCardSpan,
+  StyledCardText,
   StyledImageCard,
   StyledCard,
   StyledImage,
@@ -38,9 +38,9 @@ export const SpreaddAcademy = () => {
                     src="https://spreadd.io/assets/home/academy.jpg"
                     alt="card"
                   />
-                  <StyledCardSpan>
+                  <StyledCardText>
                     Amazing course, i would definetely recommend
-                  </StyledCardSpan>
+                  </StyledCardText>
                 </StyledCard>
               </StyledRightDetail>
             </StyledRightWrapper>
@@ -60,9 +60,7 @@ export const SpreaddAcademy = () => {
                   </div>
 
                   <div>
-                    <span>
-                      collaborators/followers
-                    </span>
+                    <span>collaborators/followers</span>
                   </div>
                 </StyledHeading>
 

@@ -1,39 +1,46 @@
-import { createGlobalStyle }  from 'styled-components';
-import ProximaNova from '../../font/proximanova_regular.ttf';
 import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
+import ProximaNova from "../../font/proximanova_regular.ttf";
 export const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'ProximaNova';
-    src: url(${ProximaNova}) format('truetype'); /* specify the format of the font file */
+    src: url('${ProximaNova}') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
-
 `;
 
 export const StyledSection = styled.section`
-  /* position: sticky; */
   top: 0px;
   right: 0px;
-  background: rgb(255, 246, 246);
+  background: #fff6f6;
   position: relative;
   padding: 100px 0px;
   z-index: -1;
+  font-family: "ProximaNova", san-serif;
 
   &::before {
     content: "";
     position: absolute;
-    top: 18px;
+    top: 48px;
     left: 0px;
     background: url(https://spreadd.io/assets/home/left-dot-patch.svg) no-repeat;
     width: 46px;
     height: 37px;
+  }
+  @media screen and (max-width: 991px) {
+    padding: 50px 0px;
   }
 `;
 
 export const StyledWrapper = styled.div`
   max-width: 1100px;
   margin: 0px auto;
+
+  @media screen and (max-width: 1280px) {
+    max-width: 980px;
+    padding: 0px 15px;
+  }
 `;
 
 export const StyledInnerWrapper = styled.div`
@@ -42,11 +49,21 @@ export const StyledInnerWrapper = styled.div`
   align-items: center;
   flex-direction: row-reverse;
   margin: 0 100px;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column-reverse;
+    margin: 100px auto;
+  }
 `;
 
 export const StyledRightWrapper = styled.div`
   max-width: 49%;
   width: 100%;
+
+  @media screen and (max-width: 767px) {
+    min-width: min-content;
+    margin-top: 50px;
+  }
 `;
 
 export const StyledRightDetail = styled.div`
@@ -72,10 +89,24 @@ export const StyledImageWrapper = styled.div`
     content: "";
     position: absolute;
     bottom: -18px;
-    left: 143px;
+    left: 20px;
     background: url(https://spreadd.io/assets/home/dot-patch.svg) no-repeat;
     width: 90px;
     height: 57px;
+  }
+
+  @media screen and (max-width: 991px) {
+    max-width: max-content;
+
+    &::before {
+      top: -30px;
+      left: -30px;
+    }
+
+    &::after {
+      bottom: -30px;
+      left: -40px;
+    }
   }
 `;
 
@@ -83,12 +114,17 @@ export const StyledImage = styled.img`
   max-width: 280px;
   z-index: 2;
   border-radius: 20px;
+
+  @media screen and (max-width: 1280px) {
+    max-width: 280px;
+    width: 100%;
+  }
 `;
 
 export const StyledCard = styled.div`
   position: absolute;
   top: -20px;
-  right: 60px;
+  right: 3px;
   background: rgb(254, 79, 82);
   border-radius: 3px;
   padding: 10px;
@@ -99,6 +135,13 @@ export const StyledCard = styled.div`
   align-items: center;
   max-width: 260px;
   width: 100%;
+
+  @media screen and (max-width: 767px) {
+    max-width: 140px;
+    right: -48px;
+    height: 20px;
+    width: 100%;
+  }
 `;
 
 export const StyledImageCard = styled.img`
@@ -108,25 +151,41 @@ export const StyledImageCard = styled.img`
   margin-right: 10px;
   vertical-align: middle;
   border-style: none;
+
+  @media screen and (max-width: 767px) {
+    max-width: 16px;
+    height: 16px;
+  }
 `;
 
-export const StyledCardSpan = styled.span`
+export const StyledCardText = styled.span`
   font-weight: 600;
   font-size: 13px;
   line-height: 1.5;
   color: #fff;
   text-align: left;
+
+  @media screen and (max-width: 767px) {
+    font-size: 9.6px;
+  }
 `;
 
 export const StyledLeftWrapper = styled.div`
   max-width: 49%;
   width: 100%;
+  font-family: sans-serif;
+
+  @media screen and (max-width: 767px) {
+    max-width: 100%;
+    padding: 0px;
+  }
 `;
 
 export const StyledLeftDetail = styled.div`
-  font-family: ProximaNova, "sans-serif";
+  font-family: "sans-serif";
 `;
 export const StyledAcademy = styled.div`
+  font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -135,6 +194,16 @@ export const StyledAcademy = styled.div`
   padding: 8px 12px;
   margin-bottom: 25px;
   width: max-content;
+
+  @media screen and (max-width: 767px) {
+    font-size: 14.4px;
+    line-height: 15px;
+  }
+
+  @media screen and (max-width: 991px) {
+    font-size: 12.8px;
+    line-height: 13px;
+  }
 `;
 
 export const StyledHeading = styled.h3`
@@ -142,12 +211,42 @@ export const StyledHeading = styled.h3`
   line-height: 1;
   margin-bottom: 20px;
   font-weight: 400;
+
+  @media screen and (max-width: 767px) {
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 27px;
+  }
+
+  @media screen and (max-width: 1280px) and (min-width: 992px) {
+    font-size: 42px;
+    line-height: 47px;
+  }
 `;
 
 export const StyledParagraph = styled.p`
   font-size: 14px;
-  font-family:'ProximaNova',sans-serif;
+  font-family: sans-serif;
   line-height: 23px;
   max-width: 372px;
   font-weight: 500;
+
+  @media screen and (max-width: 767px) {
+    font-size: 9.3px;
+    line-height: 13px;
+  }
+
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  @media screen and (max-width: 1280px) and (min-width: 992px) {
+    font-size: 14px;
+    line-height: 23px;
+    max-width: 372px;
+  }
 `;

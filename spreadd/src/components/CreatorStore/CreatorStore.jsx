@@ -82,9 +82,7 @@ export const CreatorStore = () => {
                   </div>
 
                   <div>
-                    <span>
-                      get paid on every sale brand makes through you.
-                    </span>
+                    <span>get paid on every sale brand makes through you.</span>
                   </div>
                 </StyledParagraph>
               </StyledRightInner>
