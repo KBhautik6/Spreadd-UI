@@ -175,7 +175,7 @@ export const StyledCardText = styled.span`
 export const StyledLeftWrapper = styled.div`
   max-width: 49%;
   width: 100%;
-  font-family: "ProximaNova", sans-serif;
+  font-family: 'ProximaNova',sans-serif;
 
   @media screen and (max-width: 767px) {
     max-width: 100%;
@@ -184,11 +184,11 @@ export const StyledLeftWrapper = styled.div`
 `;
 
 export const StyledLeftDetail = styled.div`
-  font-family: "ProximaNova", "sans-serif";
+  font-family:'ProximaNova', "sans-serif";
 `;
 
 export const StyledAcademy = styled.div`
-  font-family: "ProximaNova", sans-serif;
+  font-family:'ProximaNova', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -203,7 +203,7 @@ export const StyledAcademy = styled.div`
     line-height: 1.2;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 991px) {
+  @media screen and (min-width:768px) and (max-width: 991px) {
     font-size: 12.8px;
     line-height: 1;
   }
@@ -214,7 +214,7 @@ export const StyledHeading = styled.h3`
   line-height: 1;
   margin-bottom: 20px;
   font-weight: 400;
-  font-family: "ProximaNova", sans-serif;
+  font-family: 'ProximaNova',sans-serif;
 
   @media screen and (max-width: 767px) {
     font-size: 24px;
@@ -228,18 +228,18 @@ export const StyledHeading = styled.h3`
 
   @media screen and (min-width: 992px) and (max-width: 1280px) {
     font-size: 42px;
-    line-height: 1;
+    line-height: 1.3;
   }
 `;
 
 export const StyledParagraph = styled.p`
   font-size: 14px;
-  font-family: "ProximaNova", sans-serif;
+  font-family: 'ProximaNova',sans-serif;
   line-height: 1.2;
   max-width: 372px;
   width: 100%;
   font-weight: 500;
-  font-family: "ProximaNova", sans-serif;
+  font-family: 'ProximaNova',sans-serif;
 
   @media screen and (max-width: 767px) {
     font-size: 9.3px;
@@ -253,7 +253,7 @@ export const StyledParagraph = styled.p`
 
   @media screen and (min-width: 992px) and (max-width: 1280px) {
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.5;
     max-width: 372px;
     width: 100%;
   }
