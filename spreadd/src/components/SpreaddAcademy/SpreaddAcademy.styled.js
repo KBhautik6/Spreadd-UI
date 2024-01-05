@@ -17,7 +17,7 @@ export const StyledSection = styled.section`
   position: relative;
   padding: 100px 0px;
   z-index: -1;
-  font-family: "ProximaNova", san-serif;
+  font-family: san-serif;
 
   &::before {
     content: "";
@@ -28,6 +28,7 @@ export const StyledSection = styled.section`
     width: 46px;
     height: 37px;
   }
+
   @media screen and (max-width: 991px) {
     padding: 50px 0px;
   }
@@ -40,6 +41,7 @@ export const StyledWrapper = styled.div`
   @media screen and (max-width: 1280px) {
     max-width: 980px;
     padding: 0px 15px;
+    width: 100%;
   }
 `;
 
@@ -48,7 +50,7 @@ export const StyledInnerWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
-  margin: 0 100px;
+  margin: 0 0;
 
   @media screen and (max-width: 767px) {
     flex-direction: column-reverse;
@@ -77,8 +79,8 @@ export const StyledImageWrapper = styled.div`
   &::before {
     content: "";
     position: absolute;
-    top: -18px;
-    left: 20px;
+    top: -31px;
+    left: 54px;
     background: url(https://spreadd.io/assets/home/round-patch.svg) no-repeat;
     width: 96px;
     height: 96px;
@@ -88,8 +90,8 @@ export const StyledImageWrapper = styled.div`
   &::after {
     content: "";
     position: absolute;
-    bottom: -18px;
-    left: 20px;
+    bottom: -15px;
+    left: 58px;
     background: url(https://spreadd.io/assets/home/dot-patch.svg) no-repeat;
     width: 90px;
     height: 57px;
@@ -114,6 +116,7 @@ export const StyledImage = styled.img`
   max-width: 280px;
   z-index: 2;
   border-radius: 20px;
+  width: 100%;
 
   @media screen and (max-width: 1280px) {
     max-width: 280px;
@@ -125,7 +128,7 @@ export const StyledCard = styled.div`
   position: absolute;
   top: -20px;
   right: 3px;
-  background: rgb(254, 79, 82);
+  background: #fe4f52;
   border-radius: 3px;
   padding: 10px;
   display: flex;
@@ -137,10 +140,10 @@ export const StyledCard = styled.div`
   width: 100%;
 
   @media screen and (max-width: 767px) {
-    max-width: 140px;
     right: -48px;
     height: 20px;
     width: 100%;
+    max-width: 140px;
   }
 `;
 
@@ -162,7 +165,7 @@ export const StyledCardText = styled.span`
   font-weight: 600;
   font-size: 13px;
   line-height: 1.5;
-  color: #fff;
+  color: #ffffff;
   text-align: left;
 
   @media screen and (max-width: 767px) {
@@ -184,6 +187,7 @@ export const StyledLeftWrapper = styled.div`
 export const StyledLeftDetail = styled.div`
   font-family: "sans-serif";
 `;
+
 export const StyledAcademy = styled.div`
   font-family: sans-serif;
   font-size: 16px;
@@ -211,18 +215,19 @@ export const StyledHeading = styled.h3`
   line-height: 1;
   margin-bottom: 20px;
   font-weight: 400;
+  font-family: sans-serif;
 
   @media screen and (max-width: 767px) {
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 28px;
   }
 
-  @media screen and (max-width: 991px) and (min-width: 768px) {
-    font-size: 40px;
-    line-height: 27px;
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: 32px;
+    line-height: 37px;
   }
 
-  @media screen and (max-width: 1280px) and (min-width: 992px) {
+  @media screen and (min-width: 992px) and (max-width: 1280px) {
     font-size: 42px;
     line-height: 47px;
   }
@@ -234,17 +239,19 @@ export const StyledParagraph = styled.p`
   line-height: 23px;
   max-width: 372px;
   font-weight: 500;
+  font-family: sans-serif;
 
   @media screen and (max-width: 767px) {
     font-size: 9.3px;
     line-height: 13px;
   }
 
-  @media screen and (max-width: 991px) and (min-width: 768px) {
-    font-size: 13px;
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: 10px;
     line-height: 14px;
   }
-  @media screen and (max-width: 1280px) and (min-width: 992px) {
+
+  @media screen and (min-width: 992px) and (max-width: 1280px) {
     font-size: 14px;
     line-height: 23px;
     max-width: 372px;

@@ -16,7 +16,7 @@ import {
   StyledAcademy,
   StyledHeading,
   StyledParagraph,
-} from "../SpreaddAcademy/SpreaddAcademy.styled";
+} from "./SpreaddAcademy.styled";
 
 export const SpreaddAcademy = () => {
   return (
@@ -25,6 +25,7 @@ export const SpreaddAcademy = () => {
         <StyledWrapper>
           <StyledInnerWrapper>
             {/* Right section is going to start */}
+
             <StyledRightWrapper>
               <StyledRightDetail>
                 <StyledImageWrapper>
@@ -44,10 +45,10 @@ export const SpreaddAcademy = () => {
                 </StyledCard>
               </StyledRightDetail>
             </StyledRightWrapper>
+
             {/* left section is going to start */}
 
             <StyledLeftWrapper>
-              {/* New styling component started */}
               <StyledLeftDetail>
                 <StyledAcademy>Spreadd Academy</StyledAcademy>
                 <StyledHeading>

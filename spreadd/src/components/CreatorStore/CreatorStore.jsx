@@ -5,19 +5,19 @@ import {
   StyledContainer,
   StyledSvgContainer,
   StyledWrapper,
-  StyledLeft,
+  StyledLeftWrapper,
   StyledCardContainer,
   StyledCardHeading,
   StyledCardText,
   StyledImageContainer,
-  StyledImage,
-  StyledRight,
+  StyledPhoneImage,
+  StyledRightWrapper,
   StyledCreatorStore,
   StyledRightInner,
   StyledHeading,
   StyledParagraph,
-  StyledCreatorCard,
-} from "../CreatorStore/CreatorStore.styled";
+  // StyledCreatorCard, {Pink line styling component}
+} from "./CreatorStore.styled";
 
 import image from "../../assets/rightdot.svg";
 
@@ -29,24 +29,25 @@ export const CreatorStore = () => {
           <StyledSvgContainer>
             <img src={image} alt="rightdot" />
           </StyledSvgContainer>
+
           <StyledWrapper>
             {/* Left section is going to start */}
-            <StyledLeft>
+            <StyledLeftWrapper>
               <StyledCardContainer>
                 <StyledCardHeading>100+</StyledCardHeading>
                 <StyledCardText>Happy Customers 😍</StyledCardText>
               </StyledCardContainer>
 
               <StyledImageContainer>
-                <StyledImage
+                <StyledPhoneImage
                   src="https://spreadd.io/assets/home/iphone.png"
                   alt="phoneimage"
                 />
               </StyledImageContainer>
-            </StyledLeft>
+            </StyledLeftWrapper>
 
             {/* Right section is going to start */}
-            <StyledRight>
+            <StyledRightWrapper>
               <StyledRightInner>
                 <StyledCreatorStore>Creator Store</StyledCreatorStore>
 
@@ -86,9 +87,11 @@ export const CreatorStore = () => {
                   </div>
                 </StyledParagraph>
               </StyledRightInner>
-            </StyledRight>
+            </StyledRightWrapper>
+
+            {/* Pink line comment 100+ curated products */}
+            {/* <StyledCreatorCard>100+ curated products</StyledCreatorCard> */}
           </StyledWrapper>
-          <StyledCreatorCard>100+ curated products</StyledCreatorCard>
         </StyledContainer>
       </StyledSection>
     </div>
