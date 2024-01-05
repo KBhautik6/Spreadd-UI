@@ -5,14 +5,14 @@ import ProximaNova from "../../font/proximanova_regular.ttf";
 export const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'ProximaNova';
-    src: url(${ProximaNova}) format('truetype'); 
+    src: url('${ProximaNova}') format('truetype'); /* specify the format of the font file */
     font-weight: normal;
     font-style: normal;
   }
 `;
 
 export const StyledSection = styled.section`
-  font-family: sans-serif;
+  font-family: "ProximaNova", sans-serif;
   overflow-x: hidden;
   margin: auto;
   top: 0px;
@@ -29,6 +29,7 @@ export const StyledSection = styled.section`
 
 export const StyledContainer = styled.div`
   max-width: 980px;
+  width: 100%;
   padding: 0px 15px;
   margin: auto;
 
@@ -43,6 +44,7 @@ export const StyledContainer = styled.div`
 
   @media screen and (max-width: 1280px) {
     max-width: 980px;
+    width: 100%;
     padding: 0px 15px;
   }
 `;
@@ -78,7 +80,7 @@ export const StyledCardContainer = styled.div`
   right: 40px;
   top: -20px;
   padding: 10px;
-  background: white;
+  background: #ffffff;
   box-shadow: rgba(240, 97, 86, 0.1) 5px 12px 21px;
 
   @media screen and (max-width: 424px) {
@@ -86,12 +88,13 @@ export const StyledCardContainer = styled.div`
     height: 30px;
     font-size: 12px;
     left: 150px;
+    line-height: 0.4;
   }
 `;
 
 export const StyledCardHeading = styled.h5`
   font-size: 12px;
-  line-height: 1px;
+  line-height: 1;
   color: #ff4e53;
 
   @media screen and (max-width: 767px) {
@@ -133,7 +136,7 @@ export const StyledRightWrapper = styled.div`
 `;
 
 export const StyledRightInner = styled.div`
-  font-family: sans-serif;
+  font-family: "ProximaNova", sans-serif;
 `;
 
 export const StyledCreatorStore = styled.div`
@@ -148,33 +151,33 @@ export const StyledCreatorStore = styled.div`
 
   @media screen and (max-width: 767px) {
     font-size: 14px;
-    line-height: 15px;
+    line-height: 1;
   }
 `;
 
 export const StyledHeading = styled.h3`
   font-size: 42px;
-  line-height: 47px;
+  line-height: 1.2;
   margin-bottom: 20px;
   font-weight: 400;
-  font-family: sans-serif;
+  font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {
-    line-height: 28px;
+    line-height: 1;
     font-size: 24px;
   }
 `;
 
 export const StyledParagraph = styled.p`
   font-size: 14px;
-  line-height: 23px;
+  line-height: 1.5;
   max-width: 372px;
   width: 100%;
-  font-family: sans-serif;
+  font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {
     font-size: 9.3px;
-    line-height: 16px;
+    line-height: 1.3;
   }
 `;
 

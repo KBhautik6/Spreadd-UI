@@ -31,7 +31,6 @@ export const CreatorStore = () => {
           </StyledSvgContainer>
 
           <StyledWrapper>
-            {/* Left section is going to start */}
             <StyledLeftWrapper>
               <StyledCardContainer>
                 <StyledCardHeading>100+</StyledCardHeading>
@@ -41,49 +40,25 @@ export const CreatorStore = () => {
               <StyledImageContainer>
                 <StyledPhoneImage
                   src="https://spreadd.io/assets/home/iphone.png"
-                  alt="phoneimage"
+                  alt="iphoneimage"
                 />
               </StyledImageContainer>
             </StyledLeftWrapper>
-
-            {/* Right section is going to start */}
             <StyledRightWrapper>
               <StyledRightInner>
                 <StyledCreatorStore>Creator Store</StyledCreatorStore>
 
                 <StyledHeading>
                   <div>
-                    <span>Curate your</span>
-                  </div>
-
-                  <div>
-                    <span>products and turn</span>
-                  </div>
-
-                  <div>
-                    <span>your content shop-</span>
-                  </div>
-
-                  <div>
-                    <span>able</span>
+                    Curate your products and turn your content shop - able.
                   </div>
                 </StyledHeading>
 
                 <StyledParagraph>
                   <div>
-                    <span>
-                      Apply to create your own store. You can choose brands
-                    </span>
-                  </div>
-
-                  <div>
-                    <span>
-                      and display their product within your own store. You can
-                    </span>
-                  </div>
-
-                  <div>
-                    <span>get paid on every sale brand makes through you.</span>
+                    Apply to create your own store. You can choose brands and
+                    display their product within your own store. You can get
+                    paid on every sale brand makes through you.
                   </div>
                 </StyledParagraph>
               </StyledRightInner>

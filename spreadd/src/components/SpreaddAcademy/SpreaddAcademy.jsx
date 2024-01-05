@@ -24,14 +24,12 @@ export const SpreaddAcademy = () => {
       <StyledSection>
         <StyledWrapper>
           <StyledInnerWrapper>
-            {/* Right section is going to start */}
-
             <StyledRightWrapper>
               <StyledRightDetail>
                 <StyledImageWrapper>
                   <StyledImage
                     src="https://spreadd.io/assets/home/academy.jpg"
-                    alt="girlimage"
+                    alt="academy"
                   />
                 </StyledImageWrapper>
                 <StyledCard>
@@ -46,47 +44,23 @@ export const SpreaddAcademy = () => {
               </StyledRightDetail>
             </StyledRightWrapper>
 
-            {/* left section is going to start */}
-
             <StyledLeftWrapper>
               <StyledLeftDetail>
                 <StyledAcademy>Spreadd Academy</StyledAcademy>
+
                 <StyledHeading>
                   <div>
-                    <span>Create courses and</span>
-                  </div>
-
-                  <div>
-                    <span>curriculums for your</span>
-                  </div>
-
-                  <div>
-                    <span>collaborators/followers</span>
+                    Create courses and curriculums for your
+                    collaborators/followers
                   </div>
                 </StyledHeading>
 
-                {/* New styling component started */}
-
                 <StyledParagraph>
                   <div>
-                    <span>
-                      We have got a host of features that can enable you to
-                      skyrocket your
-                    </span>
-                  </div>
-
-                  <div>
-                    <span>
-                      workshop and course sales. Empower your collaborators by
-                      delivering
-                    </span>
-                  </div>
-
-                  <div>
-                    <span>
-                      deeply engaging experience wherever they are, anytime,
-                      anywhere.
-                    </span>
+                    We have got a host of features that can enable you to
+                    skyrocket your workshop and course sales. Empower your
+                    collaborators by delivering deeply engaging experience
+                    wherever they are, anytime, anywhere.
                   </div>
                 </StyledParagraph>
               </StyledLeftDetail>

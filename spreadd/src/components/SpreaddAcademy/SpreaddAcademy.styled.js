@@ -36,6 +36,7 @@ export const StyledSection = styled.section`
 
 export const StyledWrapper = styled.div`
   max-width: 1100px;
+  width: 100%;
   margin: 0px auto;
 
   @media screen and (max-width: 1280px) {
@@ -132,9 +133,7 @@ export const StyledCard = styled.div`
   border-radius: 3px;
   padding: 10px;
   display: flex;
-  -webkit-box-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
   align-items: center;
   max-width: 260px;
   width: 100%;
@@ -176,7 +175,7 @@ export const StyledCardText = styled.span`
 export const StyledLeftWrapper = styled.div`
   max-width: 49%;
   width: 100%;
-  font-family: sans-serif;
+  font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {
     max-width: 100%;
@@ -185,11 +184,11 @@ export const StyledLeftWrapper = styled.div`
 `;
 
 export const StyledLeftDetail = styled.div`
-  font-family: "sans-serif";
+  font-family: "ProximaNova", "sans-serif";
 `;
 
 export const StyledAcademy = styled.div`
-  font-family: sans-serif;
+  font-family: "ProximaNova", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -201,12 +200,12 @@ export const StyledAcademy = styled.div`
 
   @media screen and (max-width: 767px) {
     font-size: 14.4px;
-    line-height: 15px;
+    line-height: 1.2;
   }
 
-  @media screen and (max-width: 991px) {
+  @media screen and (min-width: 768px) and (max-width: 991px) {
     font-size: 12.8px;
-    line-height: 13px;
+    line-height: 1;
   }
 `;
 
@@ -215,45 +214,47 @@ export const StyledHeading = styled.h3`
   line-height: 1;
   margin-bottom: 20px;
   font-weight: 400;
-  font-family: sans-serif;
+  font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.2;
   }
 
   @media screen and (min-width: 768px) and (max-width: 991px) {
     font-size: 32px;
-    line-height: 37px;
+    line-height: 1.2;
   }
 
   @media screen and (min-width: 992px) and (max-width: 1280px) {
     font-size: 42px;
-    line-height: 47px;
+    line-height: 1;
   }
 `;
 
 export const StyledParagraph = styled.p`
   font-size: 14px;
-  font-family: sans-serif;
-  line-height: 23px;
+  font-family: "ProximaNova", sans-serif;
+  line-height: 1.2;
   max-width: 372px;
+  width: 100%;
   font-weight: 500;
-  font-family: sans-serif;
+  font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {
     font-size: 9.3px;
-    line-height: 13px;
+    line-height: 1.2;
   }
 
   @media screen and (min-width: 768px) and (max-width: 991px) {
     font-size: 10px;
-    line-height: 14px;
+    line-height: 1.2;
   }
 
   @media screen and (min-width: 992px) and (max-width: 1280px) {
     font-size: 14px;
-    line-height: 23px;
+    line-height: 1;
     max-width: 372px;
+    width: 100%;
   }
 `;
