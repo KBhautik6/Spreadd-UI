@@ -15,28 +15,28 @@ export const StyledSection = styled.section`
   font-family: "ProximaNova", sans-serif;
   overflow-x: hidden;
   margin: auto;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   background: #fff6f6;
   position: relative;
-  padding: 100px 0px;
+  padding: 100px 0;
   z-index: -1;
 
   @media screen and (max-width: 991px) {
-    padding: 50px 0px;
+    padding: 50px 0;
   }
 `;
 
 export const StyledContainer = styled.div`
   max-width: 980px;
   width: 100%;
-  padding: 0px 15px;
+  padding: 0 15px;
   margin: auto;
 
   &::after {
     content: "";
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     opacity: 0.4;
     width: 100%;
     height: 80px;
@@ -45,13 +45,13 @@ export const StyledContainer = styled.div`
   @media screen and (max-width: 1280px) {
     max-width: 980px;
     width: 100%;
-    padding: 0px 15px;
+    padding: 0 15px;
   }
 `;
 
 export const StyledSvgContainer = styled.div`
   position: absolute;
-  right: 0px;
+  right: 0;
 `;
 
 export const StyledWrapper = styled.div`
@@ -103,7 +103,7 @@ export const StyledCardHeading = styled.h5`
 `;
 export const StyledCardText = styled.p`
   color: black;
-  margin: 0px;
+  margin: 0;
   font-size: 15px;
 
   @media screen and (max-width: 767px) {
@@ -204,7 +204,7 @@ export const StyledParagraph = styled.p`
 //   width: 100%;
 //   max-width:35%;
 //   position: absolute;
-//   left: 0px;
+//   left: 0;
 //   background: linear-gradient(270deg, rgb(240, 97, 86), rgba(240, 97, 86, 0.4));
 //   font-weight: 600;
 //   font-size: 12px;

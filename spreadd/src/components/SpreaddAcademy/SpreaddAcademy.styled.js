@@ -1,21 +1,13 @@
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
-import ProximaNova from "../../font/proximanova_regular.ttf";
-export const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: 'ProximaNova';
-    src: url('${ProximaNova}') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-`;
+import { GlobalStyles } from "../CreatorStore/CreatorStore.styled";
+
 
 export const StyledSection = styled.section`
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   background: #fff6f6;
   position: relative;
-  padding: 100px 0px;
+  padding: 100px 0;
   z-index: -1;
   font-family: san-serif;
 
@@ -23,25 +15,25 @@ export const StyledSection = styled.section`
     content: "";
     position: absolute;
     top: 48px;
-    left: 0px;
+    left: 0;
     background: url(https://spreadd.io/assets/home/left-dot-patch.svg) no-repeat;
     width: 46px;
     height: 37px;
   }
 
   @media screen and (max-width: 991px) {
-    padding: 50px 0px;
+    padding: 50px 0;
   }
 `;
 
 export const StyledWrapper = styled.div`
   max-width: 1100px;
   width: 100%;
-  margin: 0px auto;
+  margin: 0 auto;
 
   @media screen and (max-width: 1280px) {
     max-width: 980px;
-    padding: 0px 15px;
+    padding: 0 15px;
     width: 100%;
   }
 `;
@@ -179,7 +171,7 @@ export const StyledLeftWrapper = styled.div`
 
   @media screen and (max-width: 767px) {
     max-width: 100%;
-    padding: 0px;
+    padding: 0;
   }
 `;
 
