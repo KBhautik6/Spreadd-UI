@@ -49,13 +49,13 @@ export const CreatorStore = () => {
                 <StyledCreatorStore>Creator Store</StyledCreatorStore>
 
                 <StyledHeading>
-                    Curate your products and turn your content shop - able.
+                  Curate your products and turn your content shop - able.
                 </StyledHeading>
 
                 <StyledParagraph>
-                    Apply to create your own store. You can choose brands and
-                    display their product within your own store. You can get
-                    paid on every sale brand makes through you.
+                  Apply to create your own store. You can choose brands and
+                  display their product within your own store. You can get paid
+                  on every sale brand makes through you.
                 </StyledParagraph>
               </StyledRightInner>
             </StyledRightWrapper>

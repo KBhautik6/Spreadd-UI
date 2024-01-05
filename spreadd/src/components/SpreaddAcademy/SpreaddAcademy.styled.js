@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { GlobalStyles } from "../CreatorStore/CreatorStore.styled";
 
-
 export const StyledSection = styled.section`
   top: 0;
   right: 0;
@@ -160,14 +159,14 @@ export const StyledCardText = styled.span`
   text-align: left;
 
   @media screen and (max-width: 767px) {
-    font-size: 9.6px;
+    font-size: 9px;
   }
 `;
 
 export const StyledLeftWrapper = styled.div`
   max-width: 49%;
   width: 100%;
-  font-family: 'ProximaNova',sans-serif;
+  font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {
     max-width: 100%;
@@ -176,37 +175,37 @@ export const StyledLeftWrapper = styled.div`
 `;
 
 export const StyledLeftDetail = styled.div`
-  font-family:'ProximaNova', "sans-serif";
+  font-family: "ProximaNova", "sans-serif";
 `;
 
 export const StyledAcademy = styled.div`
-  font-family:'ProximaNova', sans-serif;
+  font-family: "ProximaNova", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 400;
-  color: black;
+  line-height: 1.5;
+  color: #000000;
   background: linear-gradient(50deg, white, transparent);
   padding: 8px 12px;
   margin-bottom: 25px;
   width: max-content;
 
   @media screen and (max-width: 767px) {
-    font-size: 14.4px;
+    font-size: 14px;
     line-height: 1.2;
   }
 
-  @media screen and (min-width:768px) and (max-width: 991px) {
-    font-size: 12.8px;
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: 13px;
     line-height: 1;
   }
 `;
 
 export const StyledHeading = styled.h3`
   font-size: 42px;
+  font-weight: 400;
+  font-family: "ProximaNova", sans-serif;
   line-height: 1;
   margin-bottom: 20px;
-  font-weight: 400;
-  font-family: 'ProximaNova',sans-serif;
 
   @media screen and (max-width: 767px) {
     font-size: 24px;
@@ -226,15 +225,14 @@ export const StyledHeading = styled.h3`
 
 export const StyledParagraph = styled.p`
   font-size: 14px;
-  font-family: 'ProximaNova',sans-serif;
+  font-family: "ProximaNova", sans-serif;
+  font-weight: 500;
   line-height: 1.2;
   max-width: 372px;
   width: 100%;
-  font-weight: 500;
-  font-family: 'ProximaNova',sans-serif;
 
   @media screen and (max-width: 767px) {
-    font-size: 9.3px;
+    font-size: 9px;
     line-height: 1.2;
   }
 

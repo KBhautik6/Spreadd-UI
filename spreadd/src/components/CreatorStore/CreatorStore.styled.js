@@ -102,7 +102,7 @@ export const StyledCardHeading = styled.h5`
   }
 `;
 export const StyledCardText = styled.p`
-  color: black;
+  color: #000000;
   margin: 0;
   font-size: 15px;
 
@@ -141,8 +141,8 @@ export const StyledRightInner = styled.div`
 
 export const StyledCreatorStore = styled.div`
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 400;
+  line-height: 1.5;
   color: #000000;
   background: linear-gradient(50deg, white, transparent);
   padding: 8px 12px;
@@ -157,10 +157,10 @@ export const StyledCreatorStore = styled.div`
 
 export const StyledHeading = styled.h3`
   font-size: 42px;
-  line-height: 1.2;
-  margin-bottom: 20px;
   font-weight: 400;
   font-family: "ProximaNova", sans-serif;
+  line-height: 1.2;
+  margin-bottom: 20px;
 
   @media screen and (max-width: 767px) {
     line-height: 1;
@@ -170,13 +170,13 @@ export const StyledHeading = styled.h3`
 
 export const StyledParagraph = styled.p`
   font-size: 14px;
+  font-family: "ProximaNova", sans-serif;
   line-height: 1.5;
   max-width: 372px;
   width: 100%;
-  font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {
-    font-size: 9.3px;
+    font-size: 9px;
     line-height: 1.3;
   }
 `;

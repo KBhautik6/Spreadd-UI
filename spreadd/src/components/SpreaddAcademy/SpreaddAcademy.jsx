@@ -49,15 +49,15 @@ export const SpreaddAcademy = () => {
                 <StyledAcademy>Spreadd Academy</StyledAcademy>
 
                 <StyledHeading>
-                    Create courses and curriculums for your
-                    collaborators/followers
+                  Create courses and curriculums for your
+                  collaborators/followers
                 </StyledHeading>
 
                 <StyledParagraph>
-                    We have got a host of features that can enable you to
-                    skyrocket your workshop and course sales. Empower your
-                    collaborators by delivering deeply engaging experience
-                    wherever they are, anytime, anywhere.
+                  We have got a host of features that can enable you to
+                  skyrocket your workshop and course sales. Empower your
+                  collaborators by delivering deeply engaging experience
+                  wherever they are, anytime, anywhere.
                 </StyledParagraph>
               </StyledLeftDetail>
             </StyledLeftWrapper>
