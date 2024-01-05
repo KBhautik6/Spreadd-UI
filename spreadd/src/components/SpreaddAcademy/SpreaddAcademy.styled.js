@@ -32,6 +32,7 @@ export const StyledWrapper = styled.div`
 
   @media screen and (max-width: 1280px) {
     max-width: 980px;
+    width:100%;
     padding: 0 15px;
     width: 100%;
   }
@@ -134,6 +135,7 @@ export const StyledCard = styled.div`
     height: 20px;
     width: 100%;
     max-width: 140px;
+    width:100%;
   }
 `;
 
@@ -147,6 +149,7 @@ export const StyledImageCard = styled.img`
 
   @media screen and (max-width: 767px) {
     max-width: 16px;
+    width:100%;
     height: 16px;
   }
 `;

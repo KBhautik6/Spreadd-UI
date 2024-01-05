@@ -118,7 +118,7 @@ export const StyledImageContainer = styled.div`
 
 export const StyledPhoneImage = styled.img`
   max-width: 398px;
-  width: 90%;
+  width: 100%;
 
   @media screen and (max-width: 1280px) {
     max-width: 380px;
