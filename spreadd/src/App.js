@@ -10,7 +10,7 @@ function App() {
       <GlobalStyles />
       <SpreaddAcademy />
       <CreatorStore />
-      <WhySpreadd/>
+      <WhySpreadd />
     </div>
   );
 }
