@@ -82,6 +82,17 @@ export const StyledBoxWrapper = styled.div`
       top: 50px;
     }
   }
+  @media screen and (min-width:1201px){
+    &::after{
+        content: "";
+        position: absolute;
+        top: -120px;
+        right: -125px;
+        background: url(https://spreadd.io/assets/home/whyspreadd/bg-why-spreadd.svg) no-repeat;
+        width: 221px;
+        height: 360px;
+    }
+  }
 `;
 
 export const StyledBox = styled.div`
