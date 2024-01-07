@@ -25,7 +25,7 @@ export const WhySpreadd = () => {
               Spreadd and see them grow.
             </StyledText>
           </StyledHeadingWrapper>
-          
+
           <StyledBoxWrapper>
             <StyledBox>
               <StyledBoxIconWrapper>

@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import {
   StyledSection,
   StyledWrapper,
   StyledInnerWrapper,
   StyledLeftCampaign,
-  StyledRightCampaign,  
+  StyledRightCampaign,
   StyledPopUpBoxWrapper,
   StyledPopUpIconWrapper,
   StyledPopUpIcon,
@@ -19,10 +19,11 @@ import {
   StyledCampaignDetail,
   StyledCampaign,
   StyledCampaignHeading,
-  StyledCampaignText
-
-
+  StyledCampaignText,
+  StyledPraticalWrapper
 } from "./Campaign.styled";
+
+import image from "../../assets/rightdot.svg";
 
 export const Campaign = () => {
   return (
@@ -30,28 +31,36 @@ export const Campaign = () => {
       <StyledSection>
         <StyledWrapper>
           <StyledInnerWrapper>
-            {/* Upar wala dot lagana ha */}
+            <StyledPraticalWrapper>
+              <img src ={image} alt="rightdot"/>
+            </StyledPraticalWrapper>
+
             <StyledLeftCampaign>
               <StyledPopUpBoxWrapper>
                 <StyledPopUpIconWrapper>
-                  <StyledPopUpIcon src="https://spreadd.io/assets/home/setting.svg" alt="setting-icon"/>
+                  <StyledPopUpIcon
+                    src="https://spreadd.io/assets/home/setting.svg"
+                    alt="setting-icon"
+                  />
                 </StyledPopUpIconWrapper>
-                <StyledPopUpHeading>
-                  Available solutions
-                </StyledPopUpHeading>
+                <StyledPopUpHeading>Available solutions</StyledPopUpHeading>
               </StyledPopUpBoxWrapper>
-              
+
               <StyledImageWrapper>
-                <StyledImage src="https://spreadd.io/assets/home/marketplace.jpg" alt="marketplace-image"/>
+                <StyledImage
+                  src="https://spreadd.io/assets/home/marketplace.jpg"
+                  alt="marketplace-image"
+                />
               </StyledImageWrapper>
 
               <StyledCardWrapper>
                 <StyledCardIconWrapper>
-                  <StyledCardIcon src="https://spreadd.io/assets/home/bulb.svg" alt="bulb-icon"/>
+                  <StyledCardIcon
+                    src="https://spreadd.io/assets/home/bulb.svg"
+                    alt="bulb-icon"
+                  />
                 </StyledCardIconWrapper>
-                <StyledCardHeading>
-                  Easy Methods
-                </StyledCardHeading>
+                <StyledCardHeading>Easy Methods</StyledCardHeading>
                 <StyledCardText>
                   We Have the best ideas for your Brand
                 </StyledCardText>
@@ -60,14 +69,14 @@ export const Campaign = () => {
 
             <StyledRightCampaign>
               <StyledCampaignDetail>
-                <StyledCampaign>
-                  Campaign marketplace
-                </StyledCampaign>
+                <StyledCampaign>Campaign marketplace</StyledCampaign>
                 <StyledCampaignHeading>
-                Participate in campaigns & build relationships with brands
+                  Participate in campaigns & build relationships with brands
                 </StyledCampaignHeading>
                 <StyledCampaignText>
-                Join our campaign marketplace to deliver content, build strong relationships with brands and receive agreement-based timely payouts.
+                  Join our campaign marketplace to deliver content, build strong
+                  relationships with brands and receive agreement-based timely
+                  payouts.
                 </StyledCampaignText>
               </StyledCampaignDetail>
             </StyledRightCampaign>
@@ -75,5 +84,5 @@ export const Campaign = () => {
         </StyledWrapper>
       </StyledSection>
     </div>
-  )
-}
+  );
+};
