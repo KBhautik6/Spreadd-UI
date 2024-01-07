@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const StyledSection = styled.div`
   position: sticky;
   top: 0;
@@ -13,14 +12,17 @@ export const StyledWrapper = styled.div`
   width: 100%;
   margin: 0 auto;
 
-  &::after{
+  &::after {
     content: "";
     position: absolute;
     bottom: 0px;
-    background: linear-gradient(rgba(255, 246, 246, 0.5) 31.9%, rgba(255, 78, 83, 0.5) 171.98%);
+    background: linear-gradient(
+      rgba(255, 246, 246, 0.5) 31.9%,
+      rgba(255, 78, 83, 0.5) 171.98%
+    );
     opacity: 0.4;
     width: 100%;
-    height: 80px
+    height: 80px;
   }
 
   @media screen and (max-width: 1200px) {
@@ -40,11 +42,11 @@ export const StyledInnerWrapper = styled.div`
   }
 `;
 
-export const StyledPraticalWrapper=styled.div`
-    position: absolute;
-    top: 18px;
-    right: 0;
-`
+export const StyledPraticalWrapper = styled.div`
+  position: absolute;
+  top: 18px;
+  right: 0;
+`;
 
 export const StyledLeftCampaign = styled.div`
   position: relative;
@@ -169,9 +171,9 @@ export const StyledRightCampaign = styled.div`
     max-width: 100%;
   }
 `;
-export const StyledCampaignDetail=styled.div`
-    font-family: "ProximaNova", sans-serif;
-`
+export const StyledCampaignDetail = styled.div`
+  font-family: "ProximaNova", sans-serif;
+`;
 
 export const StyledCampaign = styled.div`
   font-size: 1.5rem;
@@ -185,7 +187,7 @@ export const StyledCampaign = styled.div`
 `;
 
 export const StyledCampaignHeading = styled.h3`
-  font-size:42px;
+  font-size: 42px;
   font-weight: 800;
   font-family: "ProximaNova", sans-serif;
   line-height: 1;

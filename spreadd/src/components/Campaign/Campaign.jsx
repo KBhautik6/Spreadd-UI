@@ -20,7 +20,7 @@ import {
   StyledCampaign,
   StyledCampaignHeading,
   StyledCampaignText,
-  StyledPraticalWrapper
+  StyledPraticalWrapper,
 } from "./Campaign.styled";
 
 import image from "../../assets/rightdot.svg";
@@ -32,7 +32,7 @@ export const Campaign = () => {
         <StyledWrapper>
           <StyledInnerWrapper>
             <StyledPraticalWrapper>
-              <img src ={image} alt="rightdot"/>
+              <img src={image} alt="rightdot" />
             </StyledPraticalWrapper>
 
             <StyledLeftCampaign>
