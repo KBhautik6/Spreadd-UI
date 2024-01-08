@@ -39,7 +39,7 @@ export const StyledParticalWrapper = styled.div`
 `;
 
 export const StyledLeftPartner = styled.div`
-  max-width: 42.8rem;
+  max-width: 33.8rem;
   width: 100%;
 
   @media screen and (max-width: 767px) {
@@ -150,17 +150,19 @@ export const StyledTrustHeading = styled.span`
 
 export const StyledPartnerImageWrapper = styled.div`
   display: flex;
+  gap: 40px;
+  margin: 26px -40px 0 -213px;
   align-items: center;
   flex-wrap: wrap;
-  /* gap:2.3rem;   */
   max-width: 50%;
-  gap:20px;
+  width: 100%;
 
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 910px) {
     align-items: flex-start;
-    gap: 2.5rem;
+    gap: 40px;
     flex-wrap: wrap;
-    max-width: 100%;
+    width: 100%;
+    margin: 52px 0 0 39px;
   }
 `;
 
@@ -169,6 +171,7 @@ export const StyledTrustImage = styled.img`
   object-fit: contain;
 
   @media screen and (max-width: 991px) {
-    max-width: 10rem;
+    max-width: 80px;
+    width: 100%;
   }
 `;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledSection = styled.div`
   background: white;
   padding: 120px 0;
+  /* overflow-x:hidden; */
 
   @media screen and (max-width: 991px) {
     padding: 50px 0;
@@ -26,9 +27,8 @@ export const StyledHeadingWrapper = styled.div`
 export const StyledHeading = styled.h3`
   margin-top: 0;
   margin-bottom: 8px;
-  color: #212b36;
   font-weight: 700;
-  font-family: "ProximaNova", sans-serif;
+  font-size: 19px;
 
   @media screen and (max-width: 767px) {
     font-size: 14px;
@@ -87,10 +87,11 @@ export const StyledBoxWrapper = styled.div`
       content: "";
       position: absolute;
       top: -120px;
-      right: -125px;
+      right: -137px;
+      /* transform:translateY(); */
       background: url(https://spreadd.io/assets/home/whyspreadd/bg-why-spreadd.svg)
         no-repeat;
-      width: 221px;
+      width: 225px;
       height: 360px;
     }
   }
@@ -126,8 +127,8 @@ export const StyledBoxIcon = styled.img`
 export const StyledBoxHeading = styled.h5`
   margin-top: 0;
   margin-bottom: 16px;
-  color: #212b36;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 16px;
   font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {
@@ -137,7 +138,7 @@ export const StyledBoxHeading = styled.h5`
 
 export const StyledBoxText = styled.p`
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
   font-family: "ProximaNova", sans-serif;
 
   @media screen and (max-width: 767px) {

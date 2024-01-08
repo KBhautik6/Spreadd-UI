@@ -22,7 +22,6 @@ export const StyledWrapper = styled.div`
     );
     opacity: 0.4;
     width: 100%;
-    height: 80px;
   }
 
   @media screen and (max-width: 1200px) {
@@ -52,7 +51,6 @@ export const StyledLeftCampaign = styled.div`
   position: relative;
   max-width: 48%;
   width: 100%;
-
   @media screen and (max-width: 767px) {
     max-width: max-content;
     margin-top: 30px;
@@ -75,6 +73,8 @@ export const StyledPopUpBoxWrapper = styled.div`
   top: 10px;
   bottom: unset;
   left: 70%;
+  height: 10px;
+  width: 108px;
 
   @media screen and (max-width: 991px) {
     left: 60%;
@@ -93,10 +93,12 @@ export const StyledPopUpIcon = styled.img`
 
 export const StyledPopUpHeading = styled.h5`
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 12px;
   font-family: "ProximaNova", sans-serif;
   line-height: 1;
   color: #ffffff;
+  text-align: center;
+  margin-top: 0;
 `;
 
 export const StyledImageWrapper = styled.div`
@@ -148,7 +150,6 @@ export const StyledCardIcon = styled.img`
 
 export const StyledCardHeading = styled.h5`
   font-weight: 600;
-  font-size: 1.3rem;
   font-family: "ProximaNova", sans-serif;
   line-height: 1;
   color: #ffffff;
@@ -158,7 +159,7 @@ export const StyledCardHeading = styled.h5`
 
 export const StyledCardText = styled.p`
   margin: 0;
-  font-size: 1rem;
+  font-size: 12px;
   font-family: "ProximaNova", sans-serif;
   color: white;
 `;
@@ -176,7 +177,7 @@ export const StyledCampaignDetail = styled.div`
 `;
 
 export const StyledCampaign = styled.div`
-  font-size: 1.5rem;
+  font-size: 15px;
   font-family: "ProximaNova", sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -202,10 +203,10 @@ export const StyledCampaignHeading = styled.h3`
 `;
 
 export const StyledCampaignText = styled.p`
-  font-size: 1.6rem;
+  font-size: 15px;
   font-weight: 400;
   font-family: "ProximaNova", sans-serif;
-  line-height: 2;
+  line-height: 1;
 
   @media screen and (max-width: 767px) {
     font-size: 1rem;

@@ -5,6 +5,7 @@ import { GlobalStyles } from "./components/CreatorStore/CreatorStore.styled";
 import { WhySpreadd } from "./components/WhySpreadd/WhySpreadd";
 import { Campaign } from "./components/Campaign/Campaign";
 import { Partner } from "./components/Partner/Partner";
+import { Collabaration } from "./components/Collabaration/Collabaration";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <WhySpreadd />
       <Campaign />
       <Partner />
+      <Collabaration />
     </div>
   );
 }
