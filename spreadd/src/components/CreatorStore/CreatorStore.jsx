@@ -40,18 +40,16 @@ export const CreatorStore = () => {
               <StyledImageContainer>
                 <StyledPhoneImage
                   src="https://spreadd.io/assets/home/iphone.png"
-                  alt="iphoneimage"
+                  alt="iphone"
                 />
               </StyledImageContainer>
             </StyledLeftWrapper>
             <StyledRightWrapper>
               <StyledRightInner>
                 <StyledCreatorStore>Creator Store</StyledCreatorStore>
-
                 <StyledHeading>
                   Curate your products and turn your content shop - able.
                 </StyledHeading>
-
                 <StyledParagraph>
                   Apply to create your own store. You can choose brands and
                   display their product within your own store. You can get paid
@@ -59,9 +57,6 @@ export const CreatorStore = () => {
                 </StyledParagraph>
               </StyledRightInner>
             </StyledRightWrapper>
-
-            {/* Pink line comment 100+ curated products */}
-            {/* <StyledCreatorCard>100+ curated products</StyledCreatorCard> */}
           </StyledWrapper>
         </StyledContainer>
       </StyledSection>

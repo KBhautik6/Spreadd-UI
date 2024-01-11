@@ -5,7 +5,7 @@ import ProximaNova from "../../font/proximanova_regular.ttf";
 export const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'ProximaNova';
-    src: url('${ProximaNova}') format('truetype'); /* specify the format of the font file */
+    src: url('${ProximaNova}') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -180,48 +180,3 @@ export const StyledParagraph = styled.p`
     line-height: 1.3;
   }
 `;
-
-// Pink line code
-
-// export const StyledCreatorCard = styled.div`
-/* width: 100%; */
-/* max-width: 45%; */
-/* position: absolute; */
-/* left: 0px; */
-/* bottom: 116px; */
-/* background: linear-gradient( */
-/* 270deg, */
-/* rgb(240, 97, 86) 0%, */
-/* rgba(240, 97, 86, 0.4) 98.89% */
-/* ); */
-/* font-weight: 600; */
-/* font-size: 28px; */
-/* line-height: 20px; */
-/* color: white; */
-/* text-align: right; */
-/* padding: 40px 30px; */
-
-//   width: 100%;
-//   max-width:35%;
-//   position: absolute;
-//   left: 0;
-//   background: linear-gradient(270deg, rgb(240, 97, 86), rgba(240, 97, 86, 0.4));
-//   font-weight: 600;
-//   font-size: 12px;
-//   line-height: 20px;
-//   bottom:100px;
-//   z-index:1;
-//   color: white;
-//   text-align: right;
-//   padding: 18px 30px;
-
-//   @media screen and (max-width: 480px) {
-//     max-width: 80%;
-//   }
-//   @media screen and (max-width: 767px) {
-//     padding: 20px;
-//     font-size: 1.2rem;
-//     max-width: 50%;
-//     bottom: 50px;
-//   }
-// `;
